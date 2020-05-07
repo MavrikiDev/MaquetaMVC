@@ -8,6 +8,7 @@
   <?php
   if(isset($_SESSION['inicioSesion']){
     //Credencial válida, cargamos el sistema.
+    include 'include/menuSuperior.php';
   }
   else{
     //Debe logearse.
